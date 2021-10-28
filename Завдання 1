@@ -1,0 +1,6 @@
+function Converter(uncia){
+    const gramToUncia = 29.86;
+    return uncia*gramToUncia;
+}
+
+console.log(` Це буде: ${Converter(10)} грам`);
